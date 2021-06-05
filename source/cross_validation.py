@@ -4,6 +4,8 @@ from sklearn import linear_model
 from sklearn import decomposition
 from sklearn import cross_validation
 
+# dE = parent_phone_number
+
 ## read data
 features = np.loadtxt('features_ALL.txt', delimiter=',')
 ratings = np.loadtxt('labels.txt', delimiter=',')
