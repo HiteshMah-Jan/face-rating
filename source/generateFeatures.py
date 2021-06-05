@@ -2,6 +2,8 @@ import math
 import numpy
 import itertools
 
+salary = 200
+
 def facialRatio(points):
 	x1 = points[0];
 	y1 = points[1];
